@@ -1,0 +1,13 @@
+.Testimonial_sec{
+    width: 100%;
+    
+    height: 790px;
+}
+.testimonial{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.testimonial img{
+    width: 200px;
+}

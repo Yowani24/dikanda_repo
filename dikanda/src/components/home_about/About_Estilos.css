@@ -1,0 +1,38 @@
+.About_sec {
+  background: rgba(242, 242, 242);
+}
+.about_header {
+  background: rgba(25, 33, 44);
+  height: 150px;
+  color: #fff;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.about_header button {
+  border: none;
+  background: none;
+  color: rgb(185, 183, 183);
+  margin-bottom: 30px;
+  cursor: pointer;
+  transition: 0.1s;
+  outline: none;
+}
+.about_header button:hover {
+  color: #fff;
+}
+.about_content {
+  height: 440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.about_content img {
+  width: 250px;
+}
+@media (max-width: 600px) {
+  .about_content {
+    text-align: center;
+  }
+}
